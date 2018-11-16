@@ -1,12 +1,13 @@
 # PosicionesNode
 Examen Técnico Node
 
-Instrucciones
+Instrucciones:
+
 Instalar node
 
-Con node
+Con node instalado
 
-Clonar el repositorio y en el raiz npm install
+Clonar el repositorio y en el raiz ejecutar npm install
 
 Después en /client npm install
 
