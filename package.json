@@ -1,0 +1,42 @@
+{
+  "name": "posiciones",
+  "version": "1.0.0",
+  "description": "Examen Técnico",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "mocha || true"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai-http": "^4.2.0",
+    "concurrently": "^4.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.4",
+    "npm": "^6.4.1",
+    "validator": "^10.8.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/debonisgerman/PosicionesNode.git"
+  },
+  "keywords": [
+    "Examen",
+    "Técnico"
+  ],
+  "author": "Germán De Bonis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/debonisgerman/PosicionesNode/issues"
+  },
+  "homepage": "https://github.com/debonisgerman/PosicionesNode#readme"
+}
