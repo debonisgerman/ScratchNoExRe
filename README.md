@@ -5,10 +5,11 @@ Instrucciones
 Instalar node
 
 Con node
-abrir un cmd npm i -g nodemon
 
-clonar el repo y en el raiz npm install
+Clonar el repositorio y en el raiz npm install
 
-despues en /client npm install
+Después en /client npm install
 
-una vez que termino de instalar todo te paras en el raiz npm run dev
+Una vez que terminó de instalar en el raiz ejecutar npm run dev
+
+Para probar los análisis de test, en el directorio raiz ejecutar npm run test
