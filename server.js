@@ -19,7 +19,6 @@ mongoose.connect(db, {useNewUrlParser: true})
         .then(() => console.log('MongoDB Connected'))
         .catch(err => console.log(err));
 
-//Armar ruteos
 app.use('/api/posicion',posicion);
 
 const port = process.env.PORT || 5000;
